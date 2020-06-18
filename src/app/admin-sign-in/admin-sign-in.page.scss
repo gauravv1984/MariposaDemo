@@ -1,0 +1,76 @@
+ion-img{
+    align-self: center;
+    max-width: 30%;
+    height: auto;
+    margin-left: 35%;
+    padding-top:30px ;  
+}
+
+#segment{
+    margin-top: 30px;
+}
+
+div{
+    padding:5px ; 
+}
+
+ion-input{
+    border: solid;
+    border-color:lightgrey ;
+    border-radius: 10px;
+    border-width: thin; 
+    font-size: 13px;
+    
+    
+}
+
+ion-button{
+    
+    margin-top:130px ;
+    border-radius: 10px;
+    position: fixed;
+    left: 5px;
+    bottom: 10px;
+    right: 5px;    
+}
+
+#forgotPassword{
+    
+    margin-top:0px;
+}
+
+a{
+    color: #7E7E7E;
+    font-weight: 500px;
+    
+}
+
+form{
+    padding-top: 10px;
+}
+
+ion-text{
+
+    font-size: x-small;
+}
+
+ion-icon{
+
+        color:red;
+        zoom:0.5;
+}
+
+
+#tag{
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    color: #1A1A1A;
+}
+
+#policytext{
+
+    font-size: 10px;
+}

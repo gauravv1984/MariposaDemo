@@ -2,14 +2,15 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
-  },
+  
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'admin-sign-in',
     pathMatch: 'full'
+  },
+  {
+    path: 'admin-sign-in',
+    loadChildren: () => import('./admin-sign-in/admin-sign-in.module').then( m => m.AdminSignInPageModule)
   },
 ];
 
